@@ -9,4 +9,5 @@ http://www.mulesoft.org/schema/mule/file http://www.mulesoft.org/schema/mule/fil
         <http:listener config-ref="HTTP_Listener_Configuration" path="/myFirstApp" doc:name="HTTP"/>
         <logger message="Data set is #[payload]" level="INFO" doc:name="Logger"/>
     </flow>
+    
 </mule>
